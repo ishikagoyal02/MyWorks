@@ -1,9 +1,22 @@
 body
 {
-    background: rgb(9, 161, 88);
+    background: rgb(227, 176, 87);
     color:black;
     font-size: 30px;
     font-weight:lighter;
     text-align:center;
     margin-top: 5px;;
+}
+
+.item
+{
+    border: 2px solid black;
+    margin-top: 2px;
+    padding: 3px;
+}
+
+.bye
+{
+    display: flex;
+    margin-left: 570px;
 }
