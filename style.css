@@ -20,3 +20,12 @@ body
     display: flex;
     margin-left: 570px;
 }
+
+h3{
+    font-style: bold;
+}
+
+h1{
+    color: rgb(189, 112, 112);
+    font-family:'Times New Roman', serif;
+}
