@@ -1,5 +1,5 @@
 .main {
-    background: rgb(227, 176, 87);
+    background:rgb(227, 176, 87);
     color: black;
     font-size: 30px;
     font-weight: normal;
@@ -8,8 +8,11 @@
     
 }
 
-.space{
-    font-family: "Lucida Console", "Courier New", monospace;
+.work
+{
+    color: #E55807;
+    text-shadow: -1px 1px 12px white;
+    border-bottom: 1px solid #b94705;
 }
 
 .item {
@@ -35,9 +38,9 @@ h1 {
 
 .space
 {
-    margin:0%;
-    background-image:url("E:/newChapter/image/space2.jpg") ;
-    background-repeat: no-repeat;
+    margin:0;
+    background-image:url("https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif") ;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
     height: 100vh;
 
@@ -45,6 +48,7 @@ h1 {
     color:white;
     text-align: center;
     font-family: 'Orbitron',sans-serif;
+    padding: 10px;
    
 }
 
@@ -60,14 +64,24 @@ h1 {
 .cta
 {
     color:brown;
+    border-bottom: 2px dotted brown;
+    text-shadow: 1px 1px 9px white ;
 }
 
 .box
 {
-    border: 4px solid rgb(134, 105, 134);
+    /* border: 5px solid rgb(134, 105, 134); */
     padding:8px;
     width: 700px;
     margin:10px;
-    border-color:  rgb(227, 176, 87)  rgb(227, 176, 87) rgb(146, 113, 146)  rgb(227, 176, 87) ;
+    /* background-color:rgb(134, 105, 134) ; */
     text-align: center;
+}
+
+@media screen and (max-width:400px) 
+{
+    
+    body{
+        background-color:rgb(148 163 184);;
+    }
 }
